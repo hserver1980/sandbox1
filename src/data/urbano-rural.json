@@ -1,0 +1,70 @@
+{
+  "title": "População residente por situação do domicílio",
+  "source": "Fonte: IBGE, Censos Demográficos 1950-2010 (SIDRA, tabela 1288)",
+  "years": [
+    "1950",
+    "1960",
+    "1970",
+    "1980",
+    "1991",
+    "2000",
+    "2010"
+  ],
+  "nodes": [
+    {
+      "id": "brasil",
+      "label": "Brasil",
+      "level": 0,
+      "parent": null
+    },
+    {
+      "id": "urbana",
+      "label": "Urbana",
+      "level": 1,
+      "parent": "brasil"
+    },
+    {
+      "id": "rural",
+      "label": "Rural",
+      "level": 1,
+      "parent": "brasil"
+    }
+  ],
+  "values": {
+    "1950": {
+      "brasil": 51944397,
+      "urbana": 18782891,
+      "rural": 33161506
+    },
+    "1960": {
+      "brasil": 70992343,
+      "urbana": 32004817,
+      "rural": 38987526
+    },
+    "1970": {
+      "brasil": 94508583,
+      "urbana": 52904744,
+      "rural": 41603839
+    },
+    "1980": {
+      "brasil": 121150573,
+      "urbana": 82013375,
+      "rural": 39137198
+    },
+    "1991": {
+      "brasil": 146917459,
+      "urbana": 110875826,
+      "rural": 36041633
+    },
+    "2000": {
+      "brasil": 169590693,
+      "urbana": 137755550,
+      "rural": 31835143
+    },
+    "2010": {
+      "brasil": 190755799,
+      "urbana": 160925792,
+      "rural": 29830007
+    }
+  }
+}

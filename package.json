@@ -1,0 +1,41 @@
+{
+  "name": "censo-sankey-shorts",
+  "version": "1.0.0",
+  "description": "Animated Sankey Shorts of Brazil census population (IBGE), built with Remotion",
+  "repository": {},
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.539",
+    "@remotion/google-fonts": "4.0.539",
+    "@remotion/zod-types": "4.0.539",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.539",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.539",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "10.12.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "studio": "remotion studio",
+    "dev": "remotion studio",
+    "fetch-data": "node scripts/fetch-ibge.mjs",
+    "render:regioes": "remotion render RegioesShort out/regioes-ufs.mp4",
+    "render:urbano": "remotion render UrbanoRuralShort out/urbano-rural.mp4",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src && tsc"
+  },
+  "allowScripts": {
+    "esbuild": false
+  }
+}
